@@ -23,7 +23,7 @@ _This is my week three solo project.I need to Create an application that takes a
 * _open with GUI_
 * _need Jquery_
 
-_link to_
+_link to GitHub https://github.com/GraftonBorge/Mr.Roboger-s-Neighborhood.git_
 _link to_
 
 ## tests
