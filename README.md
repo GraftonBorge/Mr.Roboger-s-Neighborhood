@@ -1,4 +1,4 @@
-Describe: beep()
-test: "It should return beep when 1 is inputted"
-code: const beep
-expected output: beep
+Describe: beepboop()
+test: "It should return 1 when beep is inputted"
+code: const beep = 1
+expected output: 1
