@@ -10,3 +10,7 @@ epected output: 2
 test: "It should return Won't you be my neighbor when number3 is inputted
 code: let number3 = "Won't you be my neighbor"
 expected output: "Won't you be my neighbor"
+
+test: "It should return 1"
+code: const beep = 1
+expected output: 1
