@@ -12,12 +12,12 @@ function beepBoop(element){
 
 
 // UI logic
-$(document).ready(function() {
+$(document).ready(function(){
+ 
   $("form#word-counter").submit(function(event){
     event.preventDefault();
     const passage = $(".input").val();
-    const beepBoop = beepBoop(passage);
-    $("#form").html()
+    $("#form").html(passage)
   
   });
 });
