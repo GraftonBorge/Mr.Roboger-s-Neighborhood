@@ -54,6 +54,12 @@ code: const beepBoopArray = [0,1,2,3,4,5];
       beepBoopArray[2] = "boop";
 expected output: "boop"
 
+test: "it should return "boop"
+code: const beepBoopArray = [0,1,2,3,4,5];
+      beepBoopArray[1] = "beep";
+      beepBoopArray[2] = "boop";
+      beepBoopArray[3] = "Won't you be my neighbor?"
+expected output: "Won't you be my neighbor?"
 ## Known Bugs
 
 * _can't get responses desired_
