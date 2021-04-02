@@ -61,7 +61,8 @@ code: const beepBoopArray = [0,1,2,3,4,5];
       beepBoopArray[3] = "Won't you be my neighbor?"
 expected output: "Won't you be my neighbor?"
 
-test: "it should return "beep"
+test: "it should return "beep" when user inputs 1"
+code:
 ## Known Bugs
 
 * _can't get responses desired_
