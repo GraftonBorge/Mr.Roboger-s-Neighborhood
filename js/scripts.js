@@ -1,7 +1,7 @@
 // buisness 
-const number1 = "beep";
-const number2 = "boop";
-const number3 = "Won't you be my neighbor"
-function beepboob(number1,number2,number3) {
+let number1 = "beep";
+let number2 = "boop";
+let number3 = "Won't you be my neighbor"
+function beepboop(number1,number2,number3) {
   
 }

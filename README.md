@@ -7,6 +7,6 @@ test: "It should return 2 when boop is inputted
 code: const boop = 2
 epected output: 2
 
-test: "It should return 3 when Won't you be my neighbor is inputted
-code: number3 = "Won't you be my neighbor"
-expected output: 3
+test: "It should return Won't you be my neighbor when number3 is inputted
+code: let number3 = "Won't you be my neighbor"
+expected output: "Won't you be my neighbor"
