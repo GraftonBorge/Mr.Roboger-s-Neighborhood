@@ -28,42 +28,14 @@ _link to_
 
 ## tests
 Describe: beepboop()
-test: "It should return 1 when beep is inputted"
-code: const beep = 1
-expected output: 1
+when user inputs a # it returns said # in an array 1-#.
 
-test: "It should return 2 when boop is inputted
-code: const boop = 2
-epected output: 2
+test:
 
-test: "It should return Won't you be my neighbor when number3 is inputted
-code: let number3 = "Won't you be my neighbor"
-expected output: "Won't you be my neighbor"
+code: 
 
-test: "It should return 1"
-code: const beep = 1
-expected output: 1
 
-test: "it should return "beep"
-code: const beepBoopArray  = [0,1,2,3,4,5];
-      beepBoopArray[1] = "beep";
-expected output: "beep"
 
-test: "it should return "boop"
-code: const beepBoopArray = [0,1,2,3,4,5];
-      beepBoopArray[1] = "beep";
-      beepBoopArray[2] = "boop";
-expected output: "boop"
-
-test: "it should return "Won't you be my neighbor"
-code: const beepBoopArray = [0,1,2,3,4,5];
-      beepBoopArray[1] = "beep";
-      beepBoopArray[2] = "boop";
-      beepBoopArray[3] = "Won't you be my neighbor?"
-expected output: "Won't you be my neighbor?"
-
-test: "it should return "beep" when user inputs 1"
-code:
 ## Known Bugs
 
 * _can't get responses desired_
