@@ -14,7 +14,7 @@
 
 ## Description
 
-_This is my week three solo project.I need to Create an application that takes a number from a user and returns a range of numbers from 0-5 and the user inputted number 1, 2, and 3 respond "Beep","Boop","Won't you be my neighbor?". While also prioritizing the responses of 3, 2, 1, ect. in that order._
+_This is my week three solo project.I need to Create an application that takes a number from a user and returns a range of numbers from 0-5 and the user inputted number 1, 2, and 3 respond "Beep","Boop","Won't you be my neighbor?". While also prioritizing the responses of 3, 2, 1, in that order._
 
 ## Setup/Installation Requirements
 
@@ -27,19 +27,11 @@ _link to GitHub https://github.com/GraftonBorge/Mr.Roboger-s-Neighborhood.git_
 _link to_
 
 ## tests
-Describe: beepboop()
-when user inputs a # it returns said # in an array 1-#.
-
-test:
-
-code: 
-
 
 
 ## Known Bugs
 
-* _can't get responses desired_
-* _document.ready wont stop giving error "$ not difined"_
+* _ _
 
 ## License
 
