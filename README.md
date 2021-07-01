@@ -28,6 +28,18 @@ _link to_
 
 ## tests
 
+Describe: beepboop()
+
+  Test: When user inputs a # it returns said # in an array 1-#.
+  Code: let one = 1;
+        let inputedNumber = 10;
+        let numberArray = [];
+        while(one <= inputedNumber){
+          numberArray.push(one++);
+        }
+  Expected Output: numberArray = [1,2,3,4,5,6,7,8,9,10];
+
+
 
 ## Known Bugs
 
