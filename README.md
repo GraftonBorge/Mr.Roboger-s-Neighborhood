@@ -39,12 +39,24 @@ Describe: beepboop()
         }
   Expected Output: numberArray = [1,2,3,4,5,6,7,8,9,10];
 
-  Test: this will replace 1 with beep
+  Test: this will replace 1 with beep.
   code: const numberString = numberArray.join().split("");
         const beepBoopArray = numberString.map(function(element) {
         return element.replace(1, "beep");
         });
   Expected Output: beepBoopArray = [beep,2,3,4,5,6,7,8,9,beep]
+
+  Test: this will replace 1,2,3 with beep,boop,will you be my neighbor.
+  Code: const beepBoopArray = numberString.map(function(element) {
+	      let beepBoop = {
+  	      1: "beep",
+          2: "boop",
+          3: "will you be my neighbor"
+        }
+        return element.replace(/1|2|3/gi, function(matched){
+  	      return beepBoop[matched];
+        });
+  Expected Output: beepBoopArray = ["beep","boop","will you be my","4","5","6","7","8","9","beep","0","beep","beep","beep","boop","beep","will you be my","beep","4","beep","5","beep","6","beep","7","beep","8","beep","9","boop","0"]
 
 
 ## Known Bugs
