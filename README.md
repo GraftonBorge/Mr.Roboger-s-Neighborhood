@@ -39,6 +39,12 @@ Describe: beepboop()
         }
   Expected Output: numberArray = [1,2,3,4,5,6,7,8,9,10];
 
+  Test: this will replace 1 with beep
+  code: const numberString = numberArray.join().split("");
+        const beepBoopArray = numberString.map(function(element) {
+        return element.replace(1, "beep");
+        });
+  Expected Output: beepBoopArray = [beep,2,3,4,5,6,7,8,9,beep]
 
 
 ## Known Bugs
