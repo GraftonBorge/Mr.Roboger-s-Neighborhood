@@ -4,7 +4,7 @@ let numberArray = [];
 while(one <= inputedNumber){
   numberArray.push(one++);
 }
-const numberString = numberArray.join().split("");
+const numberString = numberArray.join().split();
 const beepBoopArray = numberString.map(function(element) {
 	let beepBoop = {
   	1: "beep",
@@ -15,6 +15,4 @@ const beepBoopArray = numberString.map(function(element) {
   	return beepBoop[matched];
   });
 });
-
-
 console.log(beepBoopArray)
