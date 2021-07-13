@@ -1,18 +1,36 @@
+
+function beep(userNumber) {
 let one = 1;
-let inputedNumber = 30;
 let numberArray = [];
-while(one <= inputedNumber){
+while(one <= userNumber){
   numberArray.push(one++);
 }
-const numberString = numberArray.join().split();
-const beepBoopArray = numberString.map(function(element) {
-	let beepBoop = {
-  	1: "beep",
-    2: "boop",
-    3: "will you be my neighbor"
-  }
-  return element.replace(/1|2|3/gi, function(matched){
-  	return beepBoop[matched];
-  });
+return numberArray;
+};
+function boop(userArray){
+let beepBoopArray = [];
+userArray.forEach(element => {
+  const number = element.toString();
+  if (number.includes('3')){
+    beepBoopArray.push('Wont You Be My Neighbor');
+  }else if (number.includes('2')){
+    beepBoopArray.push('boop');
+  }else if (number.includes('1')){
+    beepBoopArray.push('beep');
+  }else {beepBoopArray.push(number)};
 });
-console.log(beepBoopArray)
+return beepBoopArray;
+}
+
+$(document).ready(function(){
+
+    $("#form").submit(function(event) {
+      event.preventDefault();
+      const inputedNumber = parseInt($("#userInput").val());
+      const Input = beep(inputedNumber);
+      const finalArray = boop(Input);
+      $('#final').text(finalArray)
+    })
+});
+
+
